@@ -29,8 +29,21 @@ Prerequisites
 
 ### Example
 
-To train the model, you run the following code.
+To replicate CIFAR-10 results
 
 ```
+CUDA_DEVICE_ORDER="PCI_BUS_ID" CUDA_VISIBLE_DEVICES="0" \
 python main.py \
+@runs/cifar10_args.txt
+```
+
+To replicate CIFAR-100 result (with distributed training)
+
+```
+CUDA_DEVICE_ORDER="PCI_BUS_ID" CUDA_VISIBLE_DEVICES="0,1" \
+python -m torch.distributed.launch \
+--nproc_per_node=2 main_ddp.py \
+@runs/cifar100_args.txt \
+--num-epochs 5000 \
+--num-step-per-epoch 512
 ```

@@ -1,3 +1,5 @@
+-e
+simple
 --dataset
 cifar100
 --K-strong

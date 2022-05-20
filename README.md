@@ -25,6 +25,16 @@ Prerequisites
 - Torchvision>=0.7.0,<=0.10.0
 - Cudatookit=10.2
 
+## Set up
+
+### Install dependencies
+
+using conda:
+
+```
+conda env create -f environment.yaml
+```
+
 ## Running
 
 ### Example

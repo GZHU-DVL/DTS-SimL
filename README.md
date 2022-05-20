@@ -25,7 +25,9 @@ Prerequisites
 - Torchvision>=0.7.0,<=0.10.0
 - Cudatookit=10.2
 
-### Training
+## Running
+
+### Example
 
 To train the model, you run the following code.
 

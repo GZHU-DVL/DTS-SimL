@@ -16,16 +16,9 @@ Prerequisites
 
 - Python=3.8
 - pillow
-- tqdm
-- pyyaml
 - matplotlib
-- future
-- h5py
-- numpy
-- plotly
 - pandas
 - kornia==0.5.0
-- wandb
 - scipy
 - scikit-learn
 - Pytorch>=1.6.0,<=1.9.0

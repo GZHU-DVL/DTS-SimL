@@ -1,6 +1,6 @@
-# ADT-SSL
+# DTS-SimL
 
-**ADT-SSL: Adaptive Dual-Threshold for Semi-Supervised Learning**
+**Dual-Threshold Screening and Similarity Learning Boost Semi-Suprevised Learning**
 
 *<a href="mailto:liangzechen@e.gzhu.edu.cn">Zechen Liang</a>, Yuan-Gen Wang<sup>\*</sup>, Wei Lu, Xiaochun Cao*.
 
@@ -9,7 +9,7 @@
 Clone this repo.
 
 ```
-git clone https://github.com/GZHU-DVL/ADT-SSL.git
+git clone https://github.com/GZHU-DVL/DTS-SimL.git
 ```
 
 Prerequisites

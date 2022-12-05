@@ -1,6 +1,6 @@
 # DTS-SimL
 
-**Dual-Threshold Screening and Similarity Learning Boost Semi-Suprevised Learning**
+**Improving Semi-Supervised Learning with Dual-Threshold Screening and Similarity Learning**
 
 *<a href="mailto:liangzechen@e.gzhu.edu.cn">Zechen Liang</a>, Yuan-Gen Wang<sup>\*</sup>, Wei Lu, Xiaochun Cao*.
 
